@@ -4,7 +4,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("https://source.unsplash.com/random/2080x2080/?pampore");
+        background-image: url("https://source.unsplash.com/random/1920x1080/?pampore");
         background-size: cover;
         background-position: center;
     }
