@@ -5,7 +5,7 @@
         justify-content: center;
         align-items: center;
         background-image: url("https://source.unsplash.com/random/1920x1080/?pampore");
-        background-size: 100vw 100vh;
+        background-size:cover;
         background-position: center;
     }
     
