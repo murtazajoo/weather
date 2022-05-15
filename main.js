@@ -26,7 +26,7 @@ let weather = {
         document.getElementById('humid').innerHTML = humidity + "%"
         document.getElementById('press').innerHTML = pressure
         document.getElementById('windspeed').innerHTML = speed + " Km/h"
-        document.body.style.backgroundImage = "url(https://source.unsplash.com/random/1080x1080/?" + name + ')'
+        document.body.style.backgroundImage = "url(https://source.unsplash.com/random/1920x1080/?" + name + ')'
     },
 
     search: function() {
