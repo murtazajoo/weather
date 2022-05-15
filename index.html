@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murtaza's Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="maincon">
+        <div class="search">
+            <input id="value" placeholder="search Your City" type="text">
+            <button id="go">GO</button>
+        </div>
+        <div class="container center">
+
+            <div class="half center first">
+                <div class="add">
+                    <div class="temp center">
+                        <img id="icon" src="" alt="">
+                        <span id="temps">--C</span>
+                    </div>
+                    <div class="dis">
+                        <span id="discription"></span>
+                    </div>
+                    <div class="feels">
+                        Feels Like: <span id="feel">--'C</span>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="half center second">
+                <div class="addition">
+                    <div class="city">
+                        <span id="city_name">-----</span>
+                    </div>
+                    <div id="temp_min"> Min: <span id="min">--C</span></div>
+                    <div id="temp_max">max: <span id="max">--C</span></div>
+                    <div class="humidity"> humidity: <span id="humid">--%</span></div>
+                    <div class="pressure">pressure: <span id="press">--</span></div>
+                    <div class="wind">wind-speed: <span id="windspeed">-- Km/h</span></div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="main.js"></script>
+</body>
+
+</html>
