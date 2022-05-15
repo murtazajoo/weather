@@ -95,9 +95,7 @@
         .center {
             flex-direction: column;
         }
-        body {
-            height: 100%;
-        }
+
         .maincon {
             margin: 30px 0px;
             width: 100%;
